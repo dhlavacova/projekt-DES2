@@ -5,7 +5,7 @@
 }
 
 header {
-  height: 100vh;
+  /*height: vh;*/
 }
 
 nav {
@@ -53,13 +53,28 @@ nav li a {
   justify-content: end;
 }
 
-.welcome h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Noto Serif NP Hmong", serif;
-  letter-spacing: 1.4px;
-  color: #20201f;
-  text-shadow: 1px 1px 0px rgba(87, 37, 23, 0.3);
-}
+  .welcome {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:7rem;
+
+    h1 {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman'
+    }
+      form {
+        input{
+          margin-right: 0;
+          border:transparent;
+          width:15rem;
+          }
+        button{
+          border:transparent;
+          color: #fc868b;
+          font-size: 0.8rem;
+          font-weight: bolder;
+        }
+      }
+  }
 
