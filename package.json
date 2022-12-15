@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "run-p watch watch:styles",
     "build": "run-s clean clean:styles build:styles copy",
@@ -15,6 +16,7 @@
     "clean:styles": "rm -rf src/styles",
     "copy": "mkdir dist && rsync -avr --exclude=\"/scss\" src/ dist",
     "publish": "gh-pages -d dist"
+
   },
   "repository": {
     "type": "git",
@@ -26,10 +28,12 @@
   "bugs": {
     "url": "https://github.com/dhlavacova/projekt-DES2/issues"
   },
+
   "homepage": "https://github.com/dhlavacova/projekt-DES2#readme",
   "dependencies": {
     "live-server": "^1.2.2",
     "npm-run-all": "^4.1.5",
     "sass": "^1.56.2"
   }
+
 }
