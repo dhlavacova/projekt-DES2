@@ -5,7 +5,7 @@
 }
 
 header {
-  height: 100vh;
+  /*height: vh;*/
 }
 
 nav {
@@ -51,6 +51,28 @@ nav li a {
   height: 4rem;
   display: flex;
   justify-content: end;
+}
+
+.welcome {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 7rem;
+}
+.welcome h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman";
+}
+.welcome form input {
+  margin-right: 0;
+  border: transparent;
+  width: 15rem;
+}
+.welcome form button {
+  border: transparent;
+  color: #fc868b;
+  font-size: 0.8rem;
+  font-weight: bolder;
 }
 
 /*# sourceMappingURL=main.css.map */
